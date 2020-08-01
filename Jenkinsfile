@@ -6,7 +6,7 @@ pipeline {
     }  
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "manvyas/train-schedule"
+        DOCKER_IMAGE_NAME = "mydocker15/train-schedule"
     }
     stages {
         stage('Build') {
